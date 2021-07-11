@@ -5,10 +5,15 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 /// <reference path="./google-apps-script.types.d.ts" />
+// @deno-types="./google-apps-script.types.d.ts"
 /// <reference path="./google-apps-script.base.d.ts" />
+// @deno-types="./google-apps-script.base.d.ts"
 /// <reference path="./google-apps-script.document.d.ts" />
+// @deno-types="./google-apps-script.document.d.ts"
 /// <reference path="./google-apps-script.forms.d.ts" />
+// @deno-types="./google-apps-script.forms.d.ts"
 /// <reference path="./google-apps-script.spreadsheet.d.ts" />
+// @deno-types="./google-apps-script.spreadsheet.d.ts"
 
 declare namespace GoogleAppsScript {
   namespace Script {

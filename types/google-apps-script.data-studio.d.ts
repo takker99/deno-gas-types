@@ -5,6 +5,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 /// <reference path="./google-apps-script.types.d.ts" />
+// @deno-types="./google-apps-script.types.d.ts"
 
 declare namespace GoogleAppsScript {
   namespace Data_Studio {
