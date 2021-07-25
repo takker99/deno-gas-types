@@ -3,8 +3,7 @@
 // Definitions by: motemen <https://github.com/motemen/>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="./google-apps-script.types.d.ts" />
-// @deno-types="./google-apps-script.types.d.ts"
+/// <reference types="./google-apps-script.types.d.ts" />
 
 declare namespace GoogleAppsScript {
   namespace Conference_Data {

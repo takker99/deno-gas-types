@@ -5,10 +5,8 @@
 //                 takoyaki9n <https://github.com/takoyaki9n>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="./google-apps-script.types.d.ts" />
-// @deno-types="./google-apps-script.types.d.ts"
-/// <reference path="./google-apps-script.base.d.ts" />
-// @deno-types="./google-apps-script.base.d.ts"
+/// <reference types="./google-apps-script.types.d.ts" />
+/// <reference types="./google-apps-script.base.d.ts" />
 
 declare namespace GoogleAppsScript {
   namespace URL_Fetch {

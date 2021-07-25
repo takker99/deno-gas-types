@@ -1,1 +1,1 @@
-/// <reference path="./types/index.d.ts"/>
+/// <reference types="./types/index.d.ts"/>

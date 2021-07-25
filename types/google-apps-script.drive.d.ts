@@ -5,10 +5,8 @@
 //                 mahaker <https://github.com/mahaker/>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="./google-apps-script.types.d.ts" />
-// @deno-types="./google-apps-script.types.d.ts"
-/// <reference path="./google-apps-script.base.d.ts" />
-// @deno-types="./google-apps-script.base.d.ts"
+/// <reference types="./google-apps-script.types.d.ts" />
+/// <reference types="./google-apps-script.base.d.ts" />
 
 declare namespace GoogleAppsScript {
   namespace Drive {

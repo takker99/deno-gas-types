@@ -5,12 +5,9 @@
 //                 RCRJ <https://github.com/RCRJ>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-/// <reference path="./google-apps-script.script.d.ts" />
-// @deno-types="./google-apps-script.script.d.ts"
-/// <reference path="./google-apps-script.spreadsheet.d.ts" />
-// @deno-types="./google-apps-script.spreadsheet.d.ts"
-/// <reference path="./google-apps-script.slides.d.ts" />
-// @deno-types="./google-apps-script.slides.d.ts"
+/// <reference types="./google-apps-script.script.d.ts" />
+/// <reference types="./google-apps-script.spreadsheet.d.ts" />
+/// <reference types="./google-apps-script.slides.d.ts" />
 
 declare namespace GoogleAppsScript {
   /**
@@ -26,11 +23,11 @@ declare namespace GoogleAppsScript {
     }
 
     interface AppsScriptHttpRequestEvent {
-      parameter: object;
+      parameter: { [key: string]: string };
       contextPath: string;
       contentLength: number;
       queryString: string;
-      parameters: object;
+      parameters: { [key: string]: string[] };
     }
 
     interface AppsScriptHttpRequestEventPostData {
